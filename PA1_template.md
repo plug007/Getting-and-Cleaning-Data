@@ -183,3 +183,5 @@ xyplot(steps ~ interval | dayTracker, stepsByDay, type = "l", layout = c(1, 2),
 ```
 
 ![](PA1_template_files/figure-html/unnamed-chunk-16-1.png) 
+
+###Done assignment
