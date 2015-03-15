@@ -7,7 +7,6 @@ output:
 
 
 ## Loading and preprocessing the data
-<<<<<<< HEAD
 ```{r echo=TRUE}
 activityData <- read.csv("activity.csv", colClasses = c("numeric", "character", 
     "numeric"))
@@ -122,21 +121,5 @@ names(stepsByDay) <- c("interval", "dayTracker", "steps")
 xyplot(steps ~ interval | dayTracker, stepsByDay, type = "l", layout = c(1, 2), 
     xlab = "Interval", ylab = "Number of steps")
 ```
-=======
 
-
-
-## What is mean total number of steps taken per day?
-
-
-
-## What is the average daily activity pattern?
-
-
-
-## Imputing missing values
-
-
-
-## Are there differences in activity patterns between weekdays and weekends?
->>>>>>> 80edf39c3bb508fee88e3394542f967dd3fd3270
+###Done assignment
